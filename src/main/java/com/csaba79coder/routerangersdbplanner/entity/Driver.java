@@ -35,5 +35,3 @@ public class Driver extends Identifier {
     @JoinColumn(name = "fleet_id")
     private Fleet fleet;
 }
-
-

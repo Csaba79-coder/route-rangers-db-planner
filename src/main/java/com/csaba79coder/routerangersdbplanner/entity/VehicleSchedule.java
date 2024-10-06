@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Entity
 @Table(name = "vehicle_schedule")
@@ -27,4 +26,3 @@ public class VehicleSchedule extends Identifier {
     @JoinColumn(name = "driver_id")
     private Driver driver;
 }
-

@@ -30,4 +30,3 @@ public class Route extends Identifier {
     @JoinColumn(name = "vehicle_id")
     private Vehicle vehicle;
 }
-

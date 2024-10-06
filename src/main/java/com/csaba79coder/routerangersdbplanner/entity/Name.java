@@ -1,6 +1,5 @@
 package com.csaba79coder.routerangersdbplanner.entity;
 
-import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
